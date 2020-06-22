@@ -7,29 +7,23 @@ Our Deep Fashion Alignment (DFA) takes clothes bounding box as input and predict
 <img src='./misc/demo.gif' width=540>
 
 ## Overview
-`Deep Fashion Alignment (DFA)` is the authors' implementation of the fashion landmark detector described in:  
+This is a pytorch implementation of the fashion landmark detector described in:  
 "Fashion Landmark Detection in the Wild"   
 [Ziwei Liu](http://personal.ie.cuhk.edu.hk/~lz013/), [Sijie Yan](http://mmlab.ie.cuhk.edu.hk/), [Ping Luo](http://personal.ie.cuhk.edu.hk/~pluo/), [Xiaogang Wang](http://www.ee.cuhk.edu.hk/~xgwang/), [Xiaoou Tang](https://www.ie.cuhk.edu.hk/people/xotang.shtml) (The Chinese University of Hong Kong)   
 In European Conference on Computer Vision (ECCV) 2016
 
 <img src='./misc/demo_teaser.jpg' width=800>
 
-Contact: Sijie Yan (ys016@ie.cuhk.edu.hk) and Ziwei Liu (lz013@ie.cuhk.edu.hk)
+
+Contact: Charles Chen(lc3533@columbia.edu)
+
+Courtesy of Sijie Yan (ys016@ie.cuhk.edu.hk) and Ziwei Liu (lz013@ie.cuhk.edu.hk)
+
+
 
 ## Getting started
-* Install and compile the [Caffe](https://github.com/BVLC/caffe) library.
-* Download the pre-trained models (See `Model Zoo` for details):
-``` bash
-Place "*.caffemodel" into "./models/FLD_upper(or lower or full)/" 
-```
-* Download the testing images. (See `Dataset` for details):
-``` bash
-Place "*.jpg" into "./data/FLD_upper(or lower or full)/" 
-```
-* Run the testing script:
-``` bash
-matlab ./scripts/demo.m
-```
+ python3 run_landmarks.py --model ./models_dir --data ./data/FLD_full_dir --output./results --option [full / upper / lower]
+
 
 ## Model Zoo:
 * [FLD_upper_models.zip](https://drive.google.com/open?id=0B7EVK8r0v71pa1BTRnJSaEI3a2c): 3-stage cascaded CNN models trained on upper-body clothes of Fashion Landmark Detection Benchmark (FLD).
