@@ -36,12 +36,6 @@ Courtesy of Sijie Yan (ys016@ie.cuhk.edu.hk) and Ziwei Liu (lz013@ie.cuhk.edu.hk
 ## License and Citation
 The use of this software is RESTRICTED to **non-commercial research and educational purposes**.
 
-```
-@inproceedings{liu2016fashionlandmark,
- author = {Ziwei Liu, Sijie Yan, Ping Luo, Xiaogang Wang, and Xiaoou Tang},
- title = {Fashion Landmark Detection in the Wild},
- booktitle = {European Conference on Computer Vision (ECCV)},
- month = {October},
- year = {2016} 
-}
-```
+## Fashion attribute prediction
+
+(labeled dataset)[https://drive.google.com/drive/folders/1SFMDWMf2S2-3MgyOohBDPMZH5e1LVVEw?usp=sharing]
